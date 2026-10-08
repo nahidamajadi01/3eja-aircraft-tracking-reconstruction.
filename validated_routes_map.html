@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_63a9c0070590ac36dd332528b722476c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+<div style="
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9999;
+    background: white;
+    padding: 12px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    font-size: 13px;
+">
+<b>3EJA — Candidate Airport Pairs</b><br>
+<span style="color:green;">●</span> Departure candidate<br>
+<span style="color:red;">●</span> Arrival candidate<br>
+<span style="color:blue;">- - -</span> Straight-line connection<br>
+<small>Not a verified flight track</small>
+</div>
+    
+            <div class="folium-map" id="map_63a9c0070590ac36dd332528b722476c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_63a9c0070590ac36dd332528b722476c = L.map(
+                "map_63a9c0070590ac36dd332528b722476c",
+                {
+                    center: [39.5, -98.35],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e646156325b73a9b3d8fad1ed5c32d73 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e646156325b73a9b3d8fad1ed5c32d73.addTo(map_63a9c0070590ac36dd332528b722476c);
+        
+    
+            var feature_group_5f73f4c6274b68899bfe894ed5adce20 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var poly_line_0085e28dd8d6d37fe9be7f657a7ad22c = L.polyline(
+                [[38.9445, -77.4558], [33.8756, -84.302]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": "6, 8", "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+        var popup_72eae6a4987175815872ee3827a9dea5 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f77d649cf0e38c09ed834fe181e9b05d = $(`<div id="html_f77d649cf0e38c09ed834fe181e9b05d" style="width: 100.0%; height: 100.0%;">Aircraft: ab76eb<br>Segment: 1<br>Candidate pair: KIAD → KPDK<br>First airborne: 2026-10-02 00:47:36.150<br>Last airborne: 2026-10-02 02:05:46.080<br>Observed span: 78.17 min<br>Airport pair is provisional; line is not an observed track.</div>`)[0];
+                popup_72eae6a4987175815872ee3827a9dea5.setContent(html_f77d649cf0e38c09ed834fe181e9b05d);
+            
+        
+
+        poly_line_0085e28dd8d6d37fe9be7f657a7ad22c.bindPopup(popup_72eae6a4987175815872ee3827a9dea5)
+        ;
+
+        
+    
+    
+            poly_line_0085e28dd8d6d37fe9be7f657a7ad22c.bindTooltip(
+                `<div>
+                     KIAD → KPDK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a095b815253a166e41b93ab45fa6e97c = L.circleMarker(
+                [38.9445, -77.4558],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+            circle_marker_a095b815253a166e41b93ab45fa6e97c.bindTooltip(
+                `<div>
+                     Departure candidate: KIAD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ac1b5e5e15c03ac6f53885fb84aea6aa = L.circleMarker(
+                [33.8756, -84.302],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+            circle_marker_ac1b5e5e15c03ac6f53885fb84aea6aa.bindTooltip(
+                `<div>
+                     Arrival candidate: KPDK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_1d4fc396fa978b32b8d2175f844c0805 = L.polyline(
+                [[38.9445, -77.4558], [25.907, -80.2784]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": "6, 8", "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+        var popup_0740d68b09a1bee35821236eb1f59ba8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_fb92c3d989565ec3c74689b6b39f9bef = $(`<div id="html_fb92c3d989565ec3c74689b6b39f9bef" style="width: 100.0%; height: 100.0%;">Aircraft: ab8bd7<br>Segment: 2<br>Candidate pair: KIAD → KOPF<br>First airborne: 2026-10-02 14:21:48.450<br>Last airborne: 2026-10-02 16:58:02.700<br>Observed span: 156.24 min<br>Airport pair is provisional; line is not an observed track.</div>`)[0];
+                popup_0740d68b09a1bee35821236eb1f59ba8.setContent(html_fb92c3d989565ec3c74689b6b39f9bef);
+            
+        
+
+        poly_line_1d4fc396fa978b32b8d2175f844c0805.bindPopup(popup_0740d68b09a1bee35821236eb1f59ba8)
+        ;
+
+        
+    
+    
+            poly_line_1d4fc396fa978b32b8d2175f844c0805.bindTooltip(
+                `<div>
+                     KIAD → KOPF
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2a2b75ee1a0a6f6672c90e9e8de510de = L.circleMarker(
+                [38.9445, -77.4558],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+            circle_marker_2a2b75ee1a0a6f6672c90e9e8de510de.bindTooltip(
+                `<div>
+                     Departure candidate: KIAD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_64ea6881a6e006752aa588c0d3ef3155 = L.circleMarker(
+                [25.907, -80.2784],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+            circle_marker_64ea6881a6e006752aa588c0d3ef3155.bindTooltip(
+                `<div>
+                     Arrival candidate: KOPF
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_1d4d9cc3876b23df35ca5cd2554e7d18 = L.polyline(
+                [[38.2132, -122.2807], [37.4161, -122.0491]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": "6, 8", "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+        var popup_bbc9cf24f77ebf884d705f2e9330c4ef = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f3b7d040671f83f9c7c084fc2a55183b = $(`<div id="html_f3b7d040671f83f9c7c084fc2a55183b" style="width: 100.0%; height: 100.0%;">Aircraft: a499ec<br>Segment: 2<br>Candidate pair: KAPC → KNUQ<br>First airborne: 2026-10-02 20:25:57.160<br>Last airborne: 2026-10-02 20:45:50.520<br>Observed span: 19.89 min<br>Airport pair is provisional; line is not an observed track.</div>`)[0];
+                popup_bbc9cf24f77ebf884d705f2e9330c4ef.setContent(html_f3b7d040671f83f9c7c084fc2a55183b);
+            
+        
+
+        poly_line_1d4d9cc3876b23df35ca5cd2554e7d18.bindPopup(popup_bbc9cf24f77ebf884d705f2e9330c4ef)
+        ;
+
+        
+    
+    
+            poly_line_1d4d9cc3876b23df35ca5cd2554e7d18.bindTooltip(
+                `<div>
+                     KAPC → KNUQ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9dc43e3e00b2deb8b08bad4c5b993600 = L.circleMarker(
+                [38.2132, -122.2807],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+            circle_marker_9dc43e3e00b2deb8b08bad4c5b993600.bindTooltip(
+                `<div>
+                     Departure candidate: KAPC
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2b685b8fc42c58a79642da94d460d6bb = L.circleMarker(
+                [37.4161, -122.0491],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+            circle_marker_2b685b8fc42c58a79642da94d460d6bb.bindTooltip(
+                `<div>
+                     Arrival candidate: KNUQ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_72e59b516380901532b2d4e2d8ae16a2 = L.polyline(
+                [[44.2581, -88.5191], [44.8272, -93.4571]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": "6, 8", "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+        var popup_9d63b027193f31c92d0bb744e4d40b12 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_42cd5cf2c4b16b0157ece87d5f0de077 = $(`<div id="html_42cd5cf2c4b16b0157ece87d5f0de077" style="width: 100.0%; height: 100.0%;">Aircraft: ab9345<br>Segment: 6<br>Candidate pair: KATW → KFCM<br>First airborne: 2026-10-02 21:56:52.700<br>Last airborne: 2026-10-02 22:51:59.100<br>Observed span: 55.11 min<br>Airport pair is provisional; line is not an observed track.</div>`)[0];
+                popup_9d63b027193f31c92d0bb744e4d40b12.setContent(html_42cd5cf2c4b16b0157ece87d5f0de077);
+            
+        
+
+        poly_line_72e59b516380901532b2d4e2d8ae16a2.bindPopup(popup_9d63b027193f31c92d0bb744e4d40b12)
+        ;
+
+        
+    
+    
+            poly_line_72e59b516380901532b2d4e2d8ae16a2.bindTooltip(
+                `<div>
+                     KATW → KFCM
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c8ebbc4220b58d389dfbf819677f76e6 = L.circleMarker(
+                [44.2581, -88.5191],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+            circle_marker_c8ebbc4220b58d389dfbf819677f76e6.bindTooltip(
+                `<div>
+                     Departure candidate: KATW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4409075b099fc1db79a6f4a71490d0b4 = L.circleMarker(
+                [44.8272, -93.4571],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+            circle_marker_4409075b099fc1db79a6f4a71490d0b4.bindTooltip(
+                `<div>
+                     Arrival candidate: KFCM
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_5613b0e9182a487ef78b3f1481ac4ad5 = L.polyline(
+                [[30.1975, -97.6664], [35.4362, -82.5418]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": "6, 8", "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+        var popup_d5934b6281a0e4d4bb3c4259bee2e829 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_77f1d4ef068d46108e9cf70fbc939ec6 = $(`<div id="html_77f1d4ef068d46108e9cf70fbc939ec6" style="width: 100.0%; height: 100.0%;">Aircraft: abf72f<br>Segment: 6<br>Candidate pair: KAUS → KAVL<br>First airborne: 2026-10-02 15:52:44.400<br>Last airborne: 2026-10-02 18:01:58.160<br>Observed span: 129.23 min<br>Airport pair is provisional; line is not an observed track.</div>`)[0];
+                popup_d5934b6281a0e4d4bb3c4259bee2e829.setContent(html_77f1d4ef068d46108e9cf70fbc939ec6);
+            
+        
+
+        poly_line_5613b0e9182a487ef78b3f1481ac4ad5.bindPopup(popup_d5934b6281a0e4d4bb3c4259bee2e829)
+        ;
+
+        
+    
+    
+            poly_line_5613b0e9182a487ef78b3f1481ac4ad5.bindTooltip(
+                `<div>
+                     KAUS → KAVL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b9e3c74c824e5cd471610fa5259992ad = L.circleMarker(
+                [30.1975, -97.6664],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+            circle_marker_b9e3c74c824e5cd471610fa5259992ad.bindTooltip(
+                `<div>
+                     Departure candidate: KAUS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_480535a6f81f665e12260e5a8deb20be = L.circleMarker(
+                [35.4362, -82.5418],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+            circle_marker_480535a6f81f665e12260e5a8deb20be.bindTooltip(
+                `<div>
+                     Arrival candidate: KAVL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_da1397f0e0fc047a3cb089c3a9fd0e20 = L.polyline(
+                [[45.5404, -122.9498], [38.2132, -122.2807]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": "6, 8", "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+        var popup_2740632d3d9cce6dd0abb93de75a8e49 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a6ce21d0a65333f93dabfbe1770faf6f = $(`<div id="html_a6ce21d0a65333f93dabfbe1770faf6f" style="width: 100.0%; height: 100.0%;">Aircraft: a483a2<br>Segment: 1<br>Candidate pair: KHIO → KAPC<br>First airborne: 2026-10-02 00:53:03.560<br>Last airborne: 2026-10-02 02:05:11.240<br>Observed span: 72.13 min<br>Airport pair is provisional; line is not an observed track.</div>`)[0];
+                popup_2740632d3d9cce6dd0abb93de75a8e49.setContent(html_a6ce21d0a65333f93dabfbe1770faf6f);
+            
+        
+
+        poly_line_da1397f0e0fc047a3cb089c3a9fd0e20.bindPopup(popup_2740632d3d9cce6dd0abb93de75a8e49)
+        ;
+
+        
+    
+    
+            poly_line_da1397f0e0fc047a3cb089c3a9fd0e20.bindTooltip(
+                `<div>
+                     KHIO → KAPC
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dc5c1f917e5767916de3dd957a4ca6d1 = L.circleMarker(
+                [45.5404, -122.9498],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+            circle_marker_dc5c1f917e5767916de3dd957a4ca6d1.bindTooltip(
+                `<div>
+                     Departure candidate: KHIO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a0ee5d32e7ed19a024f8250af5360649 = L.circleMarker(
+                [38.2132, -122.2807],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+            circle_marker_a0ee5d32e7ed19a024f8250af5360649.bindTooltip(
+                `<div>
+                     Arrival candidate: KAPC
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_947df09dff3baf2e6d3aa1cccba78bf2 = L.polyline(
+                [[34.4262, -119.8404], [33.6757, -117.8682]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": "6, 8", "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+        var popup_dac9933917dbe5d45fb2b04f98f7bdc6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c9ccf2459d18b30d6a21ee71de554d21 = $(`<div id="html_c9ccf2459d18b30d6a21ee71de554d21" style="width: 100.0%; height: 100.0%;">Aircraft: abe9b1<br>Segment: 2<br>Candidate pair: KSBA → KSNA<br>First airborne: 2026-10-02 16:50:38.370<br>Last airborne: 2026-10-02 17:23:39.790<br>Observed span: 33.02 min<br>Airport pair is provisional; line is not an observed track.</div>`)[0];
+                popup_dac9933917dbe5d45fb2b04f98f7bdc6.setContent(html_c9ccf2459d18b30d6a21ee71de554d21);
+            
+        
+
+        poly_line_947df09dff3baf2e6d3aa1cccba78bf2.bindPopup(popup_dac9933917dbe5d45fb2b04f98f7bdc6)
+        ;
+
+        
+    
+    
+            poly_line_947df09dff3baf2e6d3aa1cccba78bf2.bindTooltip(
+                `<div>
+                     KSBA → KSNA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3a60d4283fc369b41e249e504e4b8443 = L.circleMarker(
+                [34.4262, -119.8404],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+            circle_marker_3a60d4283fc369b41e249e504e4b8443.bindTooltip(
+                `<div>
+                     Departure candidate: KSBA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8f83ad2d321098bc12c04e34b5faebdb = L.circleMarker(
+                [33.6757, -117.8682],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+            circle_marker_8f83ad2d321098bc12c04e34b5faebdb.bindTooltip(
+                `<div>
+                     Arrival candidate: KSNA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_83bab69cde05a01f3883ad55f0a5bace = L.polyline(
+                [[36.0978, -79.9373], [40.8501, -74.0608]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": "6, 8", "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+        var popup_13aaf7c76e1cb984c1b54d26f38a6059 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b601f1afc6d4f9c186dbc4ec2962fe97 = $(`<div id="html_b601f1afc6d4f9c186dbc4ec2962fe97" style="width: 100.0%; height: 100.0%;">Aircraft: ab8f8e<br>Segment: 3<br>Candidate pair: KGSO → KTEB<br>First airborne: 2026-10-02 15:38:24.910<br>Last airborne: 2026-10-02 16:52:57.740<br>Observed span: 74.55 min<br>Airport pair is provisional; line is not an observed track.</div>`)[0];
+                popup_13aaf7c76e1cb984c1b54d26f38a6059.setContent(html_b601f1afc6d4f9c186dbc4ec2962fe97);
+            
+        
+
+        poly_line_83bab69cde05a01f3883ad55f0a5bace.bindPopup(popup_13aaf7c76e1cb984c1b54d26f38a6059)
+        ;
+
+        
+    
+    
+            poly_line_83bab69cde05a01f3883ad55f0a5bace.bindTooltip(
+                `<div>
+                     KGSO → KTEB
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5f5cf54b75982faddf218dc0d274d304 = L.circleMarker(
+                [36.0978, -79.9373],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+            circle_marker_5f5cf54b75982faddf218dc0d274d304.bindTooltip(
+                `<div>
+                     Departure candidate: KGSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_08462815154f509ca40dfb8cb7146cac = L.circleMarker(
+                [40.8501, -74.0608],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+            circle_marker_08462815154f509ca40dfb8cb7146cac.bindTooltip(
+                `<div>
+                     Arrival candidate: KTEB
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_39fb5c8a8b285753e0f2ecf27205dc09 = L.polyline(
+                [[27.5438, -99.4616], [29.5337, -98.4698]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": "6, 8", "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+        var popup_69b5065513b5284ff899940c1790b6b8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f9d34a52ad04c508057382d2120c0375 = $(`<div id="html_f9d34a52ad04c508057382d2120c0375" style="width: 100.0%; height: 100.0%;">Aircraft: abbac4<br>Segment: 8<br>Candidate pair: KLRD → KSAT<br>First airborne: 2026-10-02 23:20:10.070<br>Last airborne: 2026-10-02 23:52:16.420<br>Observed span: 32.11 min<br>Airport pair is provisional; line is not an observed track.</div>`)[0];
+                popup_69b5065513b5284ff899940c1790b6b8.setContent(html_f9d34a52ad04c508057382d2120c0375);
+            
+        
+
+        poly_line_39fb5c8a8b285753e0f2ecf27205dc09.bindPopup(popup_69b5065513b5284ff899940c1790b6b8)
+        ;
+
+        
+    
+    
+            poly_line_39fb5c8a8b285753e0f2ecf27205dc09.bindTooltip(
+                `<div>
+                     KLRD → KSAT
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d80867eba343d65d55e0374819ad972f = L.circleMarker(
+                [27.5438, -99.4616],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+            circle_marker_d80867eba343d65d55e0374819ad972f.bindTooltip(
+                `<div>
+                     Departure candidate: KLRD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9ed2e124c594116a3b767efe25f173a2 = L.circleMarker(
+                [29.5337, -98.4698],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5f73f4c6274b68899bfe894ed5adce20);
+        
+    
+            circle_marker_9ed2e124c594116a3b767efe25f173a2.bindTooltip(
+                `<div>
+                     Arrival candidate: KSAT
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_5f73f4c6274b68899bfe894ed5adce20.addTo(map_63a9c0070590ac36dd332528b722476c);
+        
+    
+            map_63a9c0070590ac36dd332528b722476c.fitBounds(
+                [[38.9445, -77.4558], [33.8756, -84.302], [38.9445, -77.4558], [25.907, -80.2784], [38.2132, -122.2807], [37.4161, -122.0491], [44.2581, -88.5191], [44.8272, -93.4571], [30.1975, -97.6664], [35.4362, -82.5418], [45.5404, -122.9498], [38.2132, -122.2807], [34.4262, -119.8404], [33.6757, -117.8682], [36.0978, -79.9373], [40.8501, -74.0608], [27.5438, -99.4616], [29.5337, -98.4698]],
+                {}
+            );
+        
+    
+            var layer_control_10240b250e5de83fa49a1520a6b8498c_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_e646156325b73a9b3d8fad1ed5c32d73,
+                },
+                overlays :  {
+                    "Candidate airport pairs" : feature_group_5f73f4c6274b68899bfe894ed5adce20,
+                },
+            };
+            let layer_control_10240b250e5de83fa49a1520a6b8498c = L.control.layers(
+                layer_control_10240b250e5de83fa49a1520a6b8498c_layers.base_layers,
+                layer_control_10240b250e5de83fa49a1520a6b8498c_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_63a9c0070590ac36dd332528b722476c);
+
+        
+</script>
+</html>

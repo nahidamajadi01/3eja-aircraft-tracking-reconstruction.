@@ -1,0 +1,177 @@
+"hex_code","segment_number","first_airborne_time","last_airborne_time","airborne_positions","observed_span_minutes","departure_airport","departure_name","arrival_airport","arrival_name","reconstruction_status"
+ab76eb,1,2026-10-02 00:47:36.150,2026-10-02 02:05:46.080,673,78.17,KIAD,Washington Dulles International Airport,KPDK,DeKalb Peachtree Airport,both_airports_matched
+aae66d,5,2026-10-02 19:04:21.460,2026-10-02 20:48:12.010,798,103.84,,,,,neither_airport
+ab9345,2,2026-10-02 13:26:46.850,2026-10-02 14:34:42.450,757,67.93,,,,,neither_airport
+aa2250,2,2026-10-02 17:59:06.330,2026-10-02 20:06:39.710,640,127.56,,,,,neither_airport
+a976d6,1,2026-10-02 00:00:06.150,2026-10-02 00:11:25.860,144,11.33,,,,,neither_airport
+aaeddb,8,2026-10-02 22:24:10.980,2026-10-02 22:27:34.120,8,3.39,,,,,neither_airport
+abf11f,1,2026-10-02 00:00:12.290,2026-10-02 01:34:58.700,501,94.77,,,,,neither_airport
+ab8bd7,2,2026-10-02 14:21:48.450,2026-10-02 16:58:02.700,2057,156.24,KIAD,Washington Dulles International Airport,KOPF,Miami-Opa Locka Executive Airport,both_airports_matched
+a976d6,4,2026-10-02 17:13:24.180,2026-10-02 18:17:09.550,543,63.76,,,KMSN,Dane County Regional Truax Field,arrival_only
+abe9b1,3,2026-10-02 19:35:18.970,2026-10-02 20:42:44.680,594,67.43,,,KOAK,Oakland San Francisco Bay Airport,arrival_only
+ab76eb,4,2026-10-02 19:53:50.150,2026-10-02 20:35:33.880,479,41.73,,,,,neither_airport
+abf11f,4,2026-10-02 17:19:05.310,2026-10-02 18:17:03.380,394,57.97,,,,,neither_airport
+a2d939,3,2026-10-02 20:08:13.970,2026-10-02 20:11:34.210,15,3.34,,,,,neither_airport
+a483a2,2,2026-10-02 17:55:45.380,2026-10-02 22:45:28.350,1304,289.72,,,,,neither_airport
+a323e3,3,2026-10-02 18:47:20.440,2026-10-02 21:02:02.310,711,134.7,,,,,neither_airport
+aaeddb,3,2026-10-02 15:43:49.670,2026-10-02 16:31:18.210,443,47.48,,,,,neither_airport
+aaeddb,6,2026-10-02 21:51:49.780,2026-10-02 21:51:56.660,2,0.11,,,,,neither_airport
+a4a15a,1,2026-10-02 17:08:29.770,2026-10-02 18:13:07.320,382,64.63,KBFI,King County International Airport - Boeing Field,,,departure_only
+abf72f,5,2026-10-02 14:00:32.960,2026-10-02 14:56:31.330,399,55.97,,,KAUS,Austin Bergstrom International Airport,arrival_only
+a499ec,2,2026-10-02 20:25:57.160,2026-10-02 20:45:50.520,372,19.89,KAPC,Napa County Airport,KNUQ,Moffett Federal Airfield,both_airports_matched
+ab9345,6,2026-10-02 21:56:52.700,2026-10-02 22:51:59.100,617,55.11,KATW,Appleton International Airport,KFCM,Flying Cloud Airport,both_airports_matched
+abde8c,1,2026-10-02 22:13:11.690,2026-10-02 23:59:48.420,527,106.61,KPIE,St. Petersburg Clearwater International Airport,,,departure_only
+a9fe88,1,2026-10-02 00:00:02.580,2026-10-02 02:18:49.040,744,138.77,,,KPDK,DeKalb Peachtree Airport,arrival_only
+a9ed53,1,2026-10-02 15:50:50.700,2026-10-02 17:39:25.830,653,108.59,,,,,neither_airport
+ab0a35,4,2026-10-02 17:47:12.110,2026-10-02 18:38:47.710,374,51.59,,,,,neither_airport
+aa2250,3,2026-10-02 20:10:54.670,2026-10-02 20:10:54.670,1,0.0,,,,,neither_airport
+ab9345,3,2026-10-02 15:35:47.580,2026-10-02 16:31:36.680,572,55.82,,,,,neither_airport
+ab80b2,4,2026-10-02 18:45:50.280,2026-10-02 19:30:55.020,592,45.08,,,,,neither_airport
+ab9ab3,1,2026-10-02 14:41:13.390,2026-10-02 16:33:18.670,616,112.09,,,,,neither_airport
+abf72f,9,2026-10-02 22:07:01.030,2026-10-02 23:59:52.660,481,112.86,,,,,neither_airport
+ab8f8e,1,2026-10-02 11:21:25.570,2026-10-02 11:50:30.300,407,29.08,,,,,neither_airport
+abf72f,6,2026-10-02 15:52:44.400,2026-10-02 18:01:58.160,784,129.23,KAUS,Austin Bergstrom International Airport,KAVL,Asheville Regional Airport,both_airports_matched
+ab9345,5,2026-10-02 20:10:12.730,2026-10-02 21:25:17.000,676,75.07,,,KATW,Appleton International Airport,arrival_only
+a842f8,3,2026-10-02 19:44:35.420,2026-10-02 21:38:48.740,751,114.22,,,KMSY,Louis Armstrong New Orleans International Airport,arrival_only
+abaf9f,4,2026-10-02 17:55:13.210,2026-10-02 20:15:25.590,1420,140.21,,,KSUA,Witham Field,arrival_only
+ab8469,2,2026-10-02 14:00:48.830,2026-10-02 14:57:45.070,679,56.94,,,KPIT,Pittsburgh International Airport,arrival_only
+aae66d,2,2026-10-02 13:56:19.620,2026-10-02 16:03:33.540,776,127.23,,,,,neither_airport
+ab5933,4,2026-10-02 18:31:56.490,2026-10-02 18:35:36.960,41,3.67,,,,,neither_airport
+ab6458,2,2026-10-02 15:03:50.940,2026-10-02 17:20:30.320,753,136.66,,,,,neither_airport
+a48759,1,2026-10-02 15:03:04.520,2026-10-02 18:31:50.990,680,208.77,,,,,neither_airport
+aa14d2,3,2026-10-02 19:57:09.760,2026-10-02 20:36:45.550,438,39.6,,,,,neither_airport
+abf72f,3,2026-10-02 13:39:19.450,2026-10-02 13:44:30.850,11,5.19,,,,,neither_airport
+a96f68,1,2026-10-02 00:17:16.970,2026-10-02 00:41:25.320,249,24.14,,,,,neither_airport
+ab0a35,5,2026-10-02 20:50:15.510,2026-10-02 21:45:41.670,801,55.44,,,KPBI,President Donald J. Trump International Airport,arrival_only
+a9e22e,1,2026-10-02 00:34:23.980,2026-10-02 01:50:01.450,548,75.62,,,KORL,Orlando Executive Airport,arrival_only
+ab5933,3,2026-10-02 16:28:48.530,2026-10-02 18:23:13.490,659,114.42,,,,,neither_airport
+ab5933,6,2026-10-02 22:13:13.470,2026-10-02 22:46:41.530,465,33.47,,,,,neither_airport
+abaf9f,3,2026-10-02 15:37:29.180,2026-10-02 16:53:29.210,683,76.0,,,,,neither_airport
+aa14d2,4,2026-10-02 21:28:01.230,2026-10-02 23:15:39.550,814,107.64,,,,,neither_airport
+ab80b2,5,2026-10-02 21:17:10.790,2026-10-02 22:21:27.400,738,64.28,,,,,neither_airport
+aa54f4,2,2026-10-02 17:53:12.130,2026-10-02 18:47:51.990,285,54.66,,,,,neither_airport
+ac462d,2,2026-10-02 14:42:17.770,2026-10-02 15:39:13.160,470,56.92,,,,,neither_airport
+abf72f,4,2026-10-02 13:49:08.570,2026-10-02 13:49:37.100,3,0.48,,,,,neither_airport
+ac462d,1,2026-10-02 13:06:02.470,2026-10-02 14:06:42.660,558,60.67,,,KPVD,Rhode Island T. F. Green International Airport,arrival_only
+aa54f4,1,2026-10-02 16:09:48.840,2026-10-02 17:00:05.930,364,50.28,KAUS,Austin Bergstrom International Airport,,,departure_only
+a9591e,4,2026-10-02 14:40:00.290,2026-10-02 15:42:36.060,528,62.6,KLIT,Bill & Hillary Clinton National Airport/Adams Field,,,departure_only
+aaeddb,5,2026-10-02 19:41:24.890,2026-10-02 21:48:38.960,815,127.23,,,,,neither_airport
+abbac4,4,2026-10-02 19:17:36.080,2026-10-02 19:17:36.080,1,0.0,,,,,neither_airport
+abdad5,3,2026-10-02 14:52:58.540,2026-10-02 16:26:51.510,917,93.88,,,,,neither_airport
+a9e22e,2,2026-10-02 14:32:24.750,2026-10-02 15:37:37.260,408,65.21,,,,,neither_airport
+a96f68,4,2026-10-02 19:06:47.070,2026-10-02 20:46:59.260,836,100.2,,,KIAD,Washington Dulles International Airport,arrival_only
+ab5933,1,2026-10-02 13:06:53.430,2026-10-02 14:06:35.650,329,59.7,,,,,neither_airport
+abdad5,2,2026-10-02 02:30:07.810,2026-10-02 03:03:49.540,397,33.7,,,,,neither_airport
+abaf9f,1,2026-10-02 00:00:14.140,2026-10-02 00:31:43.550,422,31.49,,,,,neither_airport
+abf72f,8,2026-10-02 20:45:13.740,2026-10-02 21:35:59.710,370,50.77,,,,,neither_airport
+a9e22e,3,2026-10-02 15:40:31.210,2026-10-02 15:47:23.700,53,6.87,,,,,neither_airport
+a2ae12,1,2026-10-02 00:00:10.190,2026-10-02 00:13:18.840,197,13.14,,,,,neither_airport
+ab6458,3,2026-10-02 18:46:08.190,2026-10-02 19:02:44.500,233,16.61,,,KPIE,St. Petersburg Clearwater International Airport,arrival_only
+ab8469,3,2026-10-02 16:15:19.640,2026-10-02 17:08:31.050,632,53.19,,,KRDU,Raleigh-Durham International Airport,arrival_only
+aa54f4,4,2026-10-02 23:00:18.260,2026-10-02 23:47:38.450,272,47.34,KBJC,Rocky Mountain Metropolitan Airport,,,departure_only
+aae66d,6,2026-10-02 21:48:39.570,2026-10-02 22:00:20.030,166,11.67,,,,,neither_airport
+abbac4,1,2026-10-02 00:00:13.420,2026-10-02 00:34:48.890,232,34.59,,,,,neither_airport
+a842f8,2,2026-10-02 16:27:44.050,2026-10-02 18:24:22.180,661,116.64,,,,,neither_airport
+aa78bc,1,2026-10-02 15:20:50.140,2026-10-02 17:08:34.550,519,107.74,,,,,neither_airport
+aae66d,3,2026-10-02 16:06:10.510,2026-10-02 16:11:59.690,55,5.82,,,,,neither_airport
+a9591e,1,2026-10-02 00:26:53.710,2026-10-02 00:59:57.770,166,33.07,,,,,neither_airport
+ac462d,4,2026-10-02 19:42:56.510,2026-10-02 21:17:35.710,578,94.65,,,,,neither_airport
+abf72f,2,2026-10-02 13:32:59.440,2026-10-02 13:36:37.130,9,3.63,,,,,neither_airport
+aa14d2,2,2026-10-02 17:42:23.270,2026-10-02 19:08:15.770,674,85.88,,,,,neither_airport
+a483a2,1,2026-10-02 00:53:03.560,2026-10-02 02:05:11.240,605,72.13,KHIO,Portland Hillsboro Airport,KAPC,Napa County Airport,both_airports_matched
+ab0a35,3,2026-10-02 15:37:04.490,2026-10-02 16:18:20.750,463,41.27,KJZI,Charleston Executive Airport,,,departure_only
+aa3552,3,2026-10-02 17:46:14.130,2026-10-02 18:22:56.090,512,36.7,KBTP,Pittsburgh/Butler Regional Airport,,,departure_only
+ab8bd7,1,2026-10-02 00:00:04.820,2026-10-02 00:01:03.800,93,0.98,,,KIAD,Washington Dulles International Airport,arrival_only
+aa2250,4,2026-10-02 21:28:19.470,2026-10-02 22:25:01.950,388,56.71,,,,,neither_airport
+ab9345,4,2026-10-02 17:22:13.070,2026-10-02 19:08:57.830,810,106.75,,,,,neither_airport
+ab80b2,3,2026-10-02 15:20:53.330,2026-10-02 17:11:33.110,1515,110.66,,,,,neither_airport
+ab5933,5,2026-10-02 19:39:53.620,2026-10-02 20:44:06.080,492,64.21,,,,,neither_airport
+a98bc2,3,2026-10-02 19:00:14.040,2026-10-02 19:51:38.050,580,51.4,,,,,neither_airport
+aa3552,2,2026-10-02 15:02:39.530,2026-10-02 16:25:49.100,564,83.16,,,KBTP,Pittsburgh/Butler Regional Airport,arrival_only
+abe9b1,1,2026-10-02 00:00:16.440,2026-10-02 00:38:13.760,397,37.96,,,KSBA,Santa Barbara Municipal Airport,arrival_only
+a323e3,1,2026-10-02 14:04:51.910,2026-10-02 15:45:04.680,653,100.21,KGSO,Piedmont Triad International Airport,,,departure_only
+a98bc2,2,2026-10-02 14:55:49.970,2026-10-02 16:57:39.120,746,121.82,KOSU,The Ohio State University Airport - Don Scott Field,,,departure_only
+aaeddb,1,2026-10-02 00:20:21.350,2026-10-02 01:05:27.370,580,45.1,KCLE,Cleveland Hopkins International Airport,,,departure_only
+ac462d,5,2026-10-02 22:35:16.030,2026-10-02 23:21:41.100,458,46.42,,,KPWM,Portland International Jetport,arrival_only
+ab3cd9,1,2026-10-02 13:46:47.740,2026-10-02 14:15:25.070,352,28.62,,,,,neither_airport
+ab0a35,2,2026-10-02 13:32:16.950,2026-10-02 14:40:22.120,698,68.09,,,,,neither_airport
+ab80b2,2,2026-10-02 12:55:33.360,2026-10-02 14:29:46.410,1095,94.22,,,,,neither_airport
+abf72f,7,2026-10-02 18:44:35.380,2026-10-02 19:26:31.390,352,41.93,,,,,neither_airport
+a2d939,1,2026-10-02 00:00:04.030,2026-10-02 00:51:58.310,286,51.9,,,,,neither_airport
+a9fe88,4,2026-10-02 16:00:57.660,2026-10-02 16:56:06.420,577,55.15,,,KYIP,Willow Run Airport,arrival_only
+abe9b1,2,2026-10-02 16:50:38.370,2026-10-02 17:23:39.790,466,33.02,KSBA,Santa Barbara Municipal Airport,KSNA,John Wayne Orange County International Airport,both_airports_matched
+a98bc2,1,2026-10-02 00:00:02.340,2026-10-02 00:08:56.940,193,8.91,,,KOSU,The Ohio State University Airport - Don Scott Field,arrival_only
+ab8f8e,4,2026-10-02 19:42:47.340,2026-10-02 20:20:07.150,594,37.33,KTEB,Teterboro Airport,,,departure_only
+abbac4,7,2026-10-02 20:04:24.830,2026-10-02 21:16:13.120,482,71.8,,,KLRD,Laredo International Airport,arrival_only
+ab3cd9,2,2026-10-02 20:25:35.100,2026-10-02 21:23:58.380,667,58.39,,,,,neither_airport
+aa3552,1,2026-10-02 13:40:52.600,2026-10-02 14:16:31.960,328,35.66,,,,,neither_airport
+ab8bd7,3,2026-10-02 18:10:57.790,2026-10-02 19:54:52.200,1241,103.91,,,,,neither_airport
+ab0a35,1,2026-10-02 00:00:01.960,2026-10-02 00:37:02.320,354,37.01,,,,,neither_airport
+a9e22e,5,2026-10-02 20:49:08.700,2026-10-02 22:55:46.180,760,126.62,,,,,neither_airport
+ab80b2,1,2026-10-02 00:00:02.660,2026-10-02 00:21:12.230,362,21.16,,,,,neither_airport
+a2d939,2,2026-10-02 14:18:44.050,2026-10-02 14:44:10.590,202,25.44,,,,,neither_airport
+a323e3,2,2026-10-02 16:44:41.120,2026-10-02 17:03:32.610,199,18.86,,,,,neither_airport
+aaeddb,2,2026-10-02 13:23:39.880,2026-10-02 14:33:09.710,564,69.5,,,,,neither_airport
+a9591e,7,2026-10-02 22:45:06.200,2026-10-02 23:59:58.400,438,74.87,,,,,neither_airport
+abf72f,1,2026-10-02 12:57:50.450,2026-10-02 13:30:52.280,259,33.03,KPHX,Phoenix Sky Harbor International Airport,,,departure_only
+a9fe88,5,2026-10-02 18:22:32.910,2026-10-02 20:09:32.490,781,106.99,,,,,neither_airport
+aa78bc,2,2026-10-02 19:02:12.330,2026-10-02 21:09:20.010,575,127.13,,,,,neither_airport
+a9591e,2,2026-10-02 01:05:53.510,2026-10-02 01:06:01.290,2,0.13,,,,,neither_airport
+abbac4,2,2026-10-02 01:08:36.570,2026-10-02 02:48:10.110,681,99.56,,,,,neither_airport
+aa14d2,1,2026-10-02 15:32:03.250,2026-10-02 16:57:55.180,684,85.87,,,,,neither_airport
+aaeddb,7,2026-10-02 21:54:17.850,2026-10-02 22:22:04.810,288,27.78,,,,,neither_airport
+a96f68,3,2026-10-02 16:24:38.160,2026-10-02 18:25:17.170,588,120.65,,,,,neither_airport
+a96f68,6,2026-10-02 23:35:09.260,2026-10-02 23:59:57.650,252,24.81,,,,,neither_airport
+a842f8,1,2026-10-02 14:33:54.590,2026-10-02 14:54:43.370,192,20.81,,,,,neither_airport
+a9e22e,4,2026-10-02 17:50:28.170,2026-10-02 19:08:14.340,447,77.77,,,,,neither_airport
+a9591e,6,2026-10-02 20:10:24.610,2026-10-02 21:39:42.420,708,89.3,KORL,Orlando Executive Airport,,,departure_only
+ab8469,1,2026-10-02 00:00:09.480,2026-10-02 02:09:04.850,858,128.92,,,KRDU,Raleigh-Durham International Airport,arrival_only
+aaa3f2,1,2026-10-02 20:05:32.430,2026-10-02 21:55:03.520,760,109.52,KPIE,St. Petersburg Clearwater International Airport,,,departure_only
+a9591e,3,2026-10-02 01:31:24.730,2026-10-02 02:04:47.880,367,33.39,,,KLIT,Bill & Hillary Clinton National Airport/Adams Field,arrival_only
+abdad5,4,2026-10-02 17:14:54.200,2026-10-02 21:08:21.420,1277,233.45,,,KSLC,Salt Lake City International Airport,arrival_only
+a48759,2,2026-10-02 18:36:04.610,2026-10-02 19:56:29.250,459,80.41,,,KLAS,Harry Reid International Airport,arrival_only
+a976d6,5,2026-10-02 19:32:14.500,2026-10-02 20:01:33.880,309,29.32,,,,,neither_airport
+aae66d,1,2026-10-02 11:47:02.020,2026-10-02 12:50:19.380,497,63.29,,,,,neither_airport
+aa78bc,3,2026-10-02 22:16:29.710,2026-10-02 23:59:55.760,467,103.43,,,,,neither_airport
+abf11f,5,2026-10-02 18:19:17.600,2026-10-02 18:19:17.600,1,0.0,,,,,neither_airport
+abbac4,3,2026-10-02 18:38:45.540,2026-10-02 19:12:27.730,241,33.7,,,,,neither_airport
+abbac4,6,2026-10-02 19:54:43.210,2026-10-02 20:01:23.380,23,6.67,,,,,neither_airport
+ab6458,1,2026-10-02 00:00:02.870,2026-10-02 00:53:31.110,379,53.47,,,,,neither_airport
+a96f68,2,2026-10-02 16:10:55.380,2026-10-02 16:21:58.970,102,11.06,,,,,neither_airport
+ab9ab3,3,2026-10-02 22:56:57.630,2026-10-02 23:59:49.240,573,62.86,KSTL,St. Louis Lambert International Airport,,,departure_only
+a96f68,5,2026-10-02 22:05:46.940,2026-10-02 22:40:26.380,456,34.66,KIAD,Washington Dulles International Airport,,,departure_only
+ab8f8e,3,2026-10-02 15:38:24.910,2026-10-02 16:52:57.740,963,74.55,KGSO,Piedmont Triad International Airport,KTEB,Teterboro Airport,both_airports_matched
+a4a15a,3,2026-10-02 22:08:34.630,2026-10-02 22:56:33.040,480,47.97,,,KIAD,Washington Dulles International Airport,arrival_only
+abf11f,2,2026-10-02 14:27:39.010,2026-10-02 14:47:17.810,358,19.65,,,KBWI,Baltimore/Washington International Thurgood Marshall Airport,arrival_only
+a9fe88,6,2026-10-02 20:49:28.930,2026-10-02 21:55:36.570,549,66.13,,,,,neither_airport
+ab9345,1,2026-10-02 00:00:10.140,2026-10-02 01:19:56.750,582,79.78,,,,,neither_airport
+a976d6,2,2026-10-02 12:11:02.890,2026-10-02 13:51:03.920,561,100.02,,,,,neither_airport
+aa2250,1,2026-10-02 16:16:57.090,2026-10-02 17:13:51.670,484,56.91,,,,,neither_airport
+ab8bd7,4,2026-10-02 21:18:10.670,2026-10-02 23:19:24.240,1452,121.23,,,,,neither_airport
+a9fe88,3,2026-10-02 12:56:48.390,2026-10-02 15:12:29.270,806,135.68,,,,,neither_airport
+ab76eb,2,2026-10-02 15:08:57.220,2026-10-02 15:35:49.980,327,26.88,,,,,neither_airport
+ab8f8e,2,2026-10-02 13:12:44.470,2026-10-02 14:48:35.000,1153,95.84,,,KGSO,Piedmont Triad International Airport,arrival_only
+abf11f,3,2026-10-02 15:18:37.940,2026-10-02 16:39:09.580,627,80.53,KBWI,Baltimore/Washington International Thurgood Marshall Airport,,,departure_only
+abf11f,6,2026-10-02 21:26:29.230,2026-10-02 22:40:38.140,637,74.15,,,KRDU,Raleigh-Durham International Airport,arrival_only
+a9591e,5,2026-10-02 17:26:24.340,2026-10-02 18:50:10.960,752,83.78,,,KORL,Orlando Executive Airport,arrival_only
+ab9ab3,2,2026-10-02 19:17:20.930,2026-10-02 20:43:31.980,569,86.18,,,KSTL,St. Louis Lambert International Airport,arrival_only
+a499ec,1,2026-10-02 13:32:23.450,2026-10-02 18:55:05.530,1303,322.7,,,KAPC,Napa County Airport,arrival_only
+a976d6,3,2026-10-02 14:43:56.390,2026-10-02 15:57:38.940,483,73.71,,,,,neither_airport
+a976d6,6,2026-10-02 23:12:46.430,2026-10-02 23:59:55.740,355,47.16,,,,,neither_airport
+ab76eb,3,2026-10-02 17:03:49.570,2026-10-02 17:58:00.330,429,54.18,,,,,neither_airport
+a2d939,4,2026-10-02 20:14:34.330,2026-10-02 20:46:36.700,348,32.04,,,,,neither_airport
+a9fe88,2,2026-10-02 10:06:29.590,2026-10-02 11:47:48.860,764,101.32,,,,,neither_airport
+abcfb0,1,2026-10-02 00:00:06.920,2026-10-02 00:47:48.530,497,47.69,,,,,neither_airport
+a323e3,4,2026-10-02 23:22:02.830,2026-10-02 23:59:50.200,255,37.79,,,,,neither_airport
+aaeddb,4,2026-10-02 17:39:43.440,2026-10-02 18:19:19.250,486,39.6,,,,,neither_airport
+a4a15a,2,2026-10-02 18:22:37.980,2026-10-02 21:31:59.000,717,189.35,,,,,neither_airport
+abbac4,5,2026-10-02 19:43:33.850,2026-10-02 19:43:55.800,3,0.37,,,,,neither_airport
+aa54f4,3,2026-10-02 20:03:11.230,2026-10-02 22:06:40.530,706,123.49,,,KBJC,Rocky Mountain Metropolitan Airport,arrival_only
+abbac4,8,2026-10-02 23:20:10.070,2026-10-02 23:52:16.420,451,32.11,KLRD,Laredo International Airport,KSAT,San Antonio International Airport,both_airports_matched
+abaf9f,2,2026-10-02 13:07:18.810,2026-10-02 13:57:03.610,816,49.75,,,KBTV,Patrick Leahy Burlington International Airport,arrival_only
+ab8469,4,2026-10-02 19:51:47.380,2026-10-02 22:35:47.370,1524,164.0,,,KANE,Anoka County-Blaine (Janes Field) Airport,arrival_only
+aae66d,4,2026-10-02 17:11:58.870,2026-10-02 17:43:52.170,429,31.89,,,KPBI,President Donald J. Trump International Airport,arrival_only
+ab9345,7,2026-10-02 23:42:38.430,2026-10-02 23:59:40.380,259,17.03,KFCM,Flying Cloud Airport,,,departure_only
+ab5933,2,2026-10-02 14:10:11.510,2026-10-02 15:22:10.490,508,71.98,,,,,neither_airport
+abdad5,1,2026-10-02 00:00:07.230,2026-10-02 00:40:03.740,428,39.94,,,,,neither_airport
+ac462d,3,2026-10-02 17:02:50.460,2026-10-02 18:39:45.760,532,96.92,,,,,neither_airport

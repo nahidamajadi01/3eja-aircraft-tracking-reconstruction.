@@ -1,0 +1,74 @@
+registration_key,hex_code,analysis_date,status,http_status,tracking_points,source_filename,error
+223CX,a1ec6e,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+272BQ,a2ae12,2026-10-02,downloaded,200,197,2026-10-02_a2ae12.json,
+283B,a2d939,2026-10-02,downloaded,200,874,2026-10-02_a2d939.json,
+301JT,a323e3,2026-10-02,downloaded,200,1840,2026-10-02_a323e3.json,
+390JS,a483a2,2026-10-02,reused,,2131,2026-10-02_a483a2.json,
+391JS,a48759,2026-10-02,reused,,1388,2026-10-02_a48759.json,
+393JS,a48ec7,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+394JS,a4927e,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+396JS,a499ec,2026-10-02,downloaded,200,1996,2026-10-02_a499ec.json,
+397JS,a49da3,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+398JS,a4a15a,2026-10-02,downloaded,200,1820,2026-10-02_a4a15a.json,
+420HB,a4fc50,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+631RP,a842f8,2026-10-02,downloaded,200,1722,2026-10-02_a842f8.json,
+701JS,a9591e,2026-10-02,downloaded,200,3206,2026-10-02_a9591e.json,
+702JS,a95cd5,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+707JS,a96f68,2026-10-02,downloaded,200,2764,2026-10-02_a96f68.json,
+709JS,a976d6,2026-10-02,downloaded,200,2409,2026-10-02_a976d6.json,
+714JS,a98bc2,2026-10-02,downloaded,200,1542,2026-10-02_a98bc2.json,
+715JS,a98f79,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+720JS,a9a465,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+730JS,a9cbe4,2026-10-02,downloaded,200,35,2026-10-02_a9cbe4.json,
+735JS,a9de77,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+736JS,a9e22e,2026-10-02,downloaded,200,2280,2026-10-02_a9e22e.json,
+739JS,a9ed53,2026-10-02,downloaded,200,654,2026-10-02_a9ed53.json,
+743JS,a9fe88,2026-10-02,downloaded,200,4260,2026-10-02_a9fe88.json,
+746JS,aa09ad,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+749JS,aa14d2,2026-10-02,downloaded,200,2626,2026-10-02_aa14d2.json,
+751JS,aa1e99,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+752JS,aa2250,2026-10-02,downloaded,200,1550,2026-10-02_aa2250.json,
+753JS,aa2607,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+757PC,aa3552,2026-10-02,downloaded,200,1607,2026-10-02_aa3552.json,
+765JS,aa54f4,2026-10-02,downloaded,200,2125,2026-10-02_aa54f4.json,
+770JS,aa69e0,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+774JS,aa78bc,2026-10-02,downloaded,200,1576,2026-10-02_aa78bc.json,
+780JS,aa915f,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+782JS,aa98cd,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+785JS,aaa3f2,2026-10-02,downloaded,200,790,2026-10-02_aaa3f2.json,
+799JS,aada4d,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+801JS,aae66d,2026-10-02,downloaded,200,2783,2026-10-02_aae66d.json,
+803JS,aaeddb,2026-10-02,downloaded,200,3315,2026-10-02_aaeddb.json,
+809JS,ab0425,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+810JS,ab0a35,2026-10-02,downloaded,200,2734,2026-10-02_ab0a35.json,
+823JS,ab3cd9,2026-10-02,downloaded,200,1022,2026-10-02_ab3cd9.json,
+824JS,ab4090,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+830JS,ab5933,2026-10-02,downloaded,200,2525,2026-10-02_ab5933.json,
+833JS,ab6458,2026-10-02,downloaded,200,1388,2026-10-02_ab6458.json,
+835JS,ab6bc6,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+838JS,ab76eb,2026-10-02,downloaded,200,2182,2026-10-02_ab76eb.json,
+839JS,ab7aa2,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+840JS,ab80b2,2026-10-02,downloaded,200,4313,2026-10-02_ab80b2.json,
+841JS,ab8469,2026-10-02,downloaded,200,3764,2026-10-02_ab8469.json,
+843JS,ab8bd7,2026-10-02,downloaded,200,4985,2026-10-02_ab8bd7.json,
+844JS,ab8f8e,2026-10-02,downloaded,200,3312,2026-10-02_ab8f8e.json,
+845JS,ab9345,2026-10-02,downloaded,200,4601,2026-10-02_ab9345.json,
+847JS,ab9ab3,2026-10-02,downloaded,200,1770,2026-10-02_ab9ab3.json,
+851JS,ababe8,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+852JS,abaf9f,2026-10-02,downloaded,200,3458,2026-10-02_abaf9f.json,
+853JS,abb356,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+855JS,abbac4,2026-10-02,downloaded,200,2513,2026-10-02_abbac4.json,
+856JS,abbe7b,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+857JS,abc232,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+860JS,abcfb0,2026-10-02,downloaded,200,498,2026-10-02_abcfb0.json,
+863JS,abdad5,2026-10-02,downloaded,200,3115,2026-10-02_abdad5.json,
+864JS,abde8c,2026-10-02,downloaded,200,550,2026-10-02_abde8c.json,
+867JS,abe9b1,2026-10-02,downloaded,200,1773,2026-10-02_abe9b1.json,
+869JS,abf11f,2026-10-02,downloaded,200,2576,2026-10-02_abf11f.json,
+870JS,abf72f,2026-10-02,downloaded,200,3105,2026-10-02_abf72f.json,
+872JS,abfe9d,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+875JS,ac09c2,2026-10-02,downloaded,200,30,2026-10-02_ac09c2.json,
+890JS,ac462d,2026-10-02,downloaded,200,2858,2026-10-02_ac462d.json,
+932JS,acedf0,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+95TX,ad340d,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
+979JS,ada5ed,2026-10-02,not_found_404,404,,,HTTP Error 404: Not Found
